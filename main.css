@@ -1,0 +1,142 @@
+body{
+    margin:0;
+    font-family: Futura, Arial, Helvetica, sans-serif; 
+    background-color:#fee5d9 ;
+    }
+    button#top{
+    margin-right: 10%;
+    }
+    
+    img.cat{
+    margin-right: 40%;
+    
+    }
+    
+    .banner{
+    height: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    background: repeating-linear-gradient(
+        90deg,
+        #b97c63,
+        #b97c63 20px,
+        #9b5b3d 20px,
+        #9b5b3d 40px
+    )
+    }
+    button.top{
+    box-shadow: #999 0px 5px;
+    border: none;
+    font-size: medium;
+    background-color: #374fa2;
+    margin: 10px;
+    padding: 15px;
+    }
+    
+    button.top:hover{
+        color: white; 
+        transform:translateY(4px);
+    }
+    .main-content{
+    margin-top: 5%;
+    text-align: center;
+    }
+    header.entry{  
+        font-size: 80px;
+    }
+    h2.desc{
+        margin-top: 5px;
+        font-weight: normal;
+    }
+    header.popular{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 20%;
+    }
+    .section-2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    }
+    h3.one{
+    margin-top: 0;
+    font-size: 30px;
+    }
+    
+    .treats{
+    margin-left: 20%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    }
+    img.food-space{
+    margin:5px;
+    }
+    .donut{
+    grid-column: 2;
+    grid-row: 2;
+    }
+    .ice-tea{
+    grid-column: 3;
+    grid-row: 1;
+    }
+    .coffee{
+    grid-column: 3;
+    grid-row: 2;
+    }
+    
+    .pie{
+    grid-column: 1;
+    grid-row: 2;
+    }
+    
+    .contact, .location{
+    padding-left: 20px;
+    }
+    
+    button#click{
+    box-shadow: #999 0px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:#d7e2dc ;
+    }
+    button#click:hover{
+    color: white;
+    transform: translateY(4px);
+    }
+    
+    .banner-end{
+        background: repeating-linear-gradient(
+            90deg,
+            #b97c63,
+            #b97c63 20px,
+            #9b5b3d 20px,
+            #9b5b3d 40px
+        )    
+    }
+    button#bottom{
+    margin-left: 10%;
+    
+    }
+    
+    h4.two{
+    line-height: 0;
+    font-size: 20px;
+    
+    }
+    h5.three{
+    line-height: 0;
+    
+    }
+    h4#two{
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    color: white;
+    }
+    
