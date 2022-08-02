@@ -47,14 +47,10 @@ body{
         font-size: 80px;
     }
     
-    header.entry-2{
-    margin-top: 4%;
-    font-size: 70px;
-    text-align: center;
-    }
 
     h2.desc{
         margin-top: 5px;
+        margin-bottom: 30px;
         font-weight: normal;
     }
     header.popular{
@@ -104,19 +100,19 @@ body{
     padding-left: 20px;
     }
     
-    button#click{
+    a#click{
+    text-decoration: none;
     box-shadow: #999 0px 5px;
     font-size: 15px;
     font-weight: bold;
-    padding: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
     background-color:#d7e2dc ;
+    padding: 20px;
     }
-    button#click:hover{
+    a#click:hover{
     color: white;
     transform: translateY(4px);
     }
+    
     .banner-end{
         background: repeating-linear-gradient(
             90deg,
@@ -144,9 +140,16 @@ body{
     position: absolute;
     text-align: center;
     width: 200px;
-    color: white;
+    color: black;
     }
     /* Page 2 */
+    
+    header.entry-2{
+        margin-top: 4%;
+        font-size: 70px;
+        text-align: center;
+     }
+        
     hr{
         border: none;
         background-color: black;
@@ -154,7 +157,10 @@ body{
         width: 1200px;
         }
     .main-content-2{
-    margin-left: 160px;
+    margin-right: 120px;
+    margin-left: 120px;
+    padding-left: 5%;
+    padding-right: 5%;
     width: 1200px;
     font-weight: normal;
     display: grid;
@@ -181,6 +187,7 @@ body{
     
     .main-content-3{
     margin-top: 5%;
+    margin-right: 20%;
     margin-left: 20%;
     width: 50%;
     display: grid;
@@ -196,4 +203,107 @@ body{
     .contact-info, .about-us{
     padding-left: 20px;
     
+    }
+    
+    /* Page 4 */
+    header.entry-3{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 4%;
+    
+    }
+    .main-content-4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: grey;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 300px 1100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    }
+    
+    .basic-info{
+    grid-column: 1;
+    grid-row: 1/span 2;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+    padding-left: 10%;
+    }
+    #quantity{
+    width: 3em;
+    
+    }
+    .quantity{
+    font-size: 10px;
+    
+    }
+    form.form{
+    width: 300px;
+    
+    }
+    #name, #phone-number, #e-address, #time{
+    padding: 5px;;
+    }
+    
+    #time{
+    margin-bottom: 20px;
+    
+    }
+
+   .all-categories{
+   grid-row: 1/span 2;
+   grid-column: 2;
+   display: flex;
+   margin-bottom: 5%;
+   }
+   #food{
+   padding: 10px;
+   margin: 0px;
+   border-left: 3px solid;
+   border-spacing: 5px;
+   
+   }
+   #sub-head{
+   grid-row: 1;
+   grid-column: 2;
+   
+   }
+    .choose{
+    text-align: left;
+    
+    }
+    .cato{
+    font-size: 30px
+    
+    }
+    
+    h5.head{
+    font-size: 18px;
+    margin: 0;
+    
+    }
+    
+    .submit{
+    text-decoration: none;
+    box-shadow: #999 0px 5px;
+    border: none;
+    font-size: medium;
+    background-color:#FEE5D9 ;
+    margin: 10px;
+    padding: 15px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    }
+    a.submit:hover{
+        color: white; 
+        transform:translateY(4px);
+    }
+
+    h2.order{
+    text-align: center;
     }
